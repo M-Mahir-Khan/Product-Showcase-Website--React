@@ -1,12 +1,43 @@
-# React + Vite
+# 🛍️ Product Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive product showcase web app built using **React** and **Bootstrap**.  
+This app allows users to explore, filter, sort, search, and favorite products in a user-friendly interface.
 
-Currently, two official plugins are available:
+Live Demo 👉 [https://product-showcase-website-react.vercel.app/](https://product-showcase-website-react.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Real-time search by product name  
+- 🗂️ Filter products by category  
+- 💸 Sort products by price (Low to High / High to Low)  
+- 🌗 Toggle between Light & Dark mode  
+- ❤️ Mark products as favorite  
+- 🔴 "Show Favorites Only" toggle  
+- ✅ Fully responsive layout  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – UI framework  
+- **Bootstrap 5** – Styling and layout  
+- **Vercel** – Hosting and deployment  
+
+---
+
+
+## 📤 Deployment
+The project is deployed using Vercel.
+
+Live Site:
+👉 https://product-showcase-website-react.vercel.app/
+
+---
+
+## ⭐️ Show Your Support
+If you found this project helpful or inspiring:
+
+⭐️ Star the repo
+💬 Share with friends
