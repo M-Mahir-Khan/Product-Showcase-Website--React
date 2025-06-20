@@ -14,8 +14,7 @@ function App() {
 
   const categories = [...new Set(productsData.map((p) => p.category))];
 
-  
-  // 🧠 Filter Products (Category + Search + Favorites)
+
   const filteredProducts = productsData
     .filter((p) =>
       selectedCategory === "All" ? true : p.category === selectedCategory
@@ -27,7 +26,7 @@ function App() {
       showFavoritesOnly ? favorites.includes(p.id) : true
     );
 
-  // 🔃 Sort Products (by price)
+
   const sortedProducts = [...filteredProducts];
   if (sortOption === "low-high") {
     sortedProducts.sort((a, b) => a.price - b.price);
@@ -35,7 +34,7 @@ function App() {
     sortedProducts.sort((a, b) => b.price - a.price);
   }
 
-  // ❤️ Toggle Favorite
+
   const toggleFavorite = (id) => {
     setFavorites((prev) =>
       prev.includes(id)
