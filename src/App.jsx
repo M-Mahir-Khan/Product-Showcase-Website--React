@@ -14,6 +14,7 @@ function App() {
 
   const categories = [...new Set(productsData.map((p) => p.category))];
 
+  
   // 🧠 Filter Products (Category + Search + Favorites)
   const filteredProducts = productsData
     .filter((p) =>
